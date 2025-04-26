@@ -1,8 +1,6 @@
 /* remove default browser spacing*/
-* {
-  margin: 0px;
-  padding: 0px;
-}
+* 
+
 
 /*title text style*/
 /* the font-family 'JetBrains Mono', has been linked
@@ -20,7 +18,7 @@ margin: 20px auto:
   text-align: center;
   font-size: 1.1rem
   line-height: 1.6;
-  color: #333
+  color: #ffffff
 }
 #summary h2 {
   font-size: 1.8rem;
@@ -47,8 +45,8 @@ margin-bottom: 20px;
   padding: 20px;
   border-radius: 15px;
   text-align: left;
-  width: 300px;
-  height: 80px;
+  width: 400px;
+  height: 100px;
 }
 .contact-card p {
   margin: 8px 0;
@@ -73,6 +71,23 @@ width: 40%;
 .bottom-section ul {
   list-style-type: disc;
   padding-right: 20px;
-
-
+}
+.section-heading {
+  margin-bottom: 10px;
+  width: 300px
+}
+.section-heading h2 {
+  margin-bottom: 5px;
+}
+.section-heading hr {
+  border: 1px solid #aaa;
+}
+body {
+  background-color: rgb(29, 26, 26);
+  color: #ffffff;
+  font-family: JetBrains Mono;
+margin: 0;
+padding: 0;
+font-size: 18px;
+height: 100vh;
 }
